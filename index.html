@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Unlimited Color</title>
+    
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+    </style>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        /* height: 100vh; */
+      }
+
+      #button {
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+      }
+
+      .pseudo {
+        height: 25px;
+        width: 50px;
+        margin: 10px 25px 10px;
+        transition: all 0.75s ease-in-out 0s;
+        border-radius: 8px;
+      }
+
+      .pseudo:hover {
+        background-color: lavender;
+        height: 50px;
+        width: 120px;
+      }
+
+      .suru {
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    </style>
+  </head>
+  <body style="background-color: black; color: gold">
+    <div id="dabba">
+      <h1>Start should change the Background color Every Second</h1>
+    </div>
+    <div id="button">
+      <button id="start" class="pseudo"><span class="suru">Start</span></button>
+      <button id="stop" class="pseudo"><span class="suru">Stop</span></button>
+    </div>
+    <script src="chaiaurcode.js"></script>
+  </body>
+</html>
